@@ -70,8 +70,8 @@ ul {    color: #520d2d ;
         .imginicio, .clik{
             display: flex;
             justify-content: center;
-            height: 200px;
-            width: 200px;
+            height: 230px;
+            width: 230px;
         }
         .clik {
             color: #51122F; 
@@ -80,5 +80,7 @@ ul {    color: #520d2d ;
         }
         .imginicio{
             margin-top: 80px;
+            margin-left: 4px;
         }
     }
+
