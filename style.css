@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {}
+
 
 h1, h2{
     background-color: #E6DCD0 ;
@@ -62,10 +62,22 @@ strong{ margin-left: 5px;
     color: #51122F;
 }
 a{ text-decoration: none;}
-li ul {    color: #51122F ;
+ul {    color: #520d2d ;
     font-size: 25px;
-    text-align: center;
-    font-style: oblique;}
+    text-align: center;}
+
+    @media (max-width:600px ) {
+        .imginicio, .clik{
+            display: flex;
+            justify-content: center;
+            height: 400px;
+            width: 400px;
+        }
+        .clik {
+            color: #51122F; 
+            font-size: 20px;
+        }
+    }
 
 
 
