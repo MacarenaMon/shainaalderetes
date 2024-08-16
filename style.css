@@ -82,13 +82,15 @@ ul {    color: #520d2d ;
         }
     }
 
-    @media (max-width: 600px){
+ @media (max-width: 600px){
         .galeria1{
             display: flex;
             flex-direction: column;
-            margin-left: 10px;
         }
+        .fotosantu1{ height: 6cm;
+        width: 6cm;}
     }
+
 
 .parrafo14 {
     color: fuchsia;
