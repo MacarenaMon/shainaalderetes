@@ -1,5 +1,3 @@
-
-
 h1, h2{
     background-color: #E6DCD0 ;
     color:fuchsia ;
@@ -84,3 +82,9 @@ ul {    color: #520d2d ;
         }
     }
 
+    @media (max-width: 600px){
+        .galeria1{
+            display: flex;
+            flex-direction: column;
+        }
+    }
